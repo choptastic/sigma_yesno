@@ -1,0 +1,12 @@
+%% vim ts=2 sw=2 et ft=erlang
+{application, sigma_yesno,
+ [
+  {description, "A dropdown box that represents a simple boolean 'Yes' or 'No'. Comparable to a toggle, but just a dropdown box"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
