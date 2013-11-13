@@ -11,6 +11,7 @@
 reflect() -> record_info(fields, yesno).
 
 -spec is_true(any()) -> boolean().
+is_true(undefined) -> false;
 is_true(false) -> false;
 is_true(no) -> false;
 is_true(0) -> false;
