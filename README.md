@@ -44,7 +44,7 @@ Then add the following includes into any module requiring the form
 + `no_text`: The text for the "No" value
 + `value`: The boolean value to determine which value is selected. Please note
   that this follows a somewhat "PHP-ish" approach. The following values
-  evaluate to false: `false`, `"false"`, `"no"`, `no`", `"0"`, `0`, `""`
+  evaluate to false: `false`, `"false"`, `"no"`, `no`, `"0"`, `0`, `""`
   (empty list), and `undefined`.  All others evaluate to true.
 
 As far as postback values, the "yes" value will be the text "1", and the "no"
