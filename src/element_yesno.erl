@@ -24,7 +24,7 @@ is_true(_) -> true.
 transform_element(R = #yesno{}) ->
 	IsTrue = is_true(R#yesno.value),
 
-	DD = wf_util:copy_fields(R, #dropdown{}),
+	DD = wf_utils:copy_fields(R, #dropdown{}),
 	DD#dropdown{
 		options=[
 			#option{text=R#yesno.no_text,value="0",selected=not(IsTrue)},
