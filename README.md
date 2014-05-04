@@ -1,4 +1,4 @@
-# sigma_form
+# sigma_yesno
 
 A simple `#yesno` element dropdown box abstraction for boolean yes or no
 dropdown for the [Nitrogen Web Framework](http://nitrogenoproject.com)
@@ -52,7 +52,7 @@ value will be text "0".
 
 ## License
 
-Copyright (c) 2013, [Jesse Gumm](http://sigma-star.com/page/jesse)
+Copyright (c) 2013-2014, [Jesse Gumm](http://sigma-star.com/page/jesse)
 ([@jessegumm](http://twitter.com/jessegumm))
 
 MIT License
