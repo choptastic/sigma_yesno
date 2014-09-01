@@ -1,7 +1,7 @@
 # sigma_form
 
 A simple `#yesno` element dropdown box abstraction for boolean yes or no
-dropdown for the [Nitrogen Web Framework](http://nitrogenoproject.com)
+dropdown for the [Nitrogen Web Framework](http://nitrogenproject.com)
 
 ## Installing into a Nitrogen Application
 
